@@ -1,0 +1,68 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+ width: 970px;
+ /*height: 100px;*/
+ background-color: darkblue;
+ padding: 20px;
+ /*margin: 10px;*/
+/* display: inline-block; 
+ position: relative;*/
+ overflow: auto;
+}
+#header{
+ height: 40px;
+ background-color: red;
+ padding: 20px;
+ border-radius: 20px; 
+}
+#left_nav{
+ width: 175px;
+ padding: 30px;
+ margin-top: 20px;
+ margin-right:15px;
+ background-color: RGB(45,125,140);
+ display: inline-block;
+ border-radius: 20px;
+ text-decoration: underline; 
+}
+#left_nav ul{
+text-decoration-line: underline;
+}
+.sublist {
+	margin-left:20px;
+	list-style-type: circle;
+}
+#main_content{
+ width: 670px;
+ margin-top: 20px;
+ margin-bottom: 10px;
+ padding:10px;
+ background-color: black;
+ vertical-align:top;
+ display: inline-block;
+ border-radius: 20px;
+}
+#footer{
+ height: 40px;
+ width: 900px;
+ margin-top: 10px;
+ margin-bottom: 5px;
+ padding: 20px;
+ background-color: gray;
+ display: inline-block;
+ border-radius: 20px;
+}
+#useful_info{
+ margin-left: 20px;
+ color: white;
+ padding-top: 13px;
+ font-size: 12px;
+}
+
+ul {
+	margin-left: 20px;
+}
